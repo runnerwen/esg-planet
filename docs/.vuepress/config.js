@@ -7,7 +7,7 @@ export default defineUserConfig({
 
   title: 'VuePress',
   description: 'My first VuePress Site',
-
+  base:'/esg-planet/',
   theme: defaultTheme({
     logo: 'https://vuejs.press/images/hero.png',
 
@@ -16,3 +16,4 @@ export default defineUserConfig({
 
   bundler: viteBundler(),
 })
+
